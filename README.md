@@ -19,9 +19,52 @@
 
 ## What is LVNG?
 
-[LVNG](https://lvng.ai) (Living Network) is a managed multi-agent AI platform. It hosts **AI agents**, **automated workflows**, a **knowledge graph**, and **artifact storage** — all running on LVNG's infrastructure. You interact with the platform through the web app at [app.lvng.ai](https://app.lvng.ai), a REST API, or Claude Code via MCP.
+[LVNG](https://lvng.ai) (Living Network) is a managed multi-agent AI platform. It hosts **AI agents**, **automated workflows**, a **knowledge graph**, and **artifact storage** — all running on LVNG's infrastructure.
 
-**This cookbook** is a collection of recipes and full working examples that show you how to use the LVNG API to orchestrate agents, workflows, and knowledge from your own code.
+There are multiple ways to use LVNG depending on your comfort level. **This cookbook is for developers** — but if you're not a developer, you don't need it.
+
+<br />
+
+## Choose Your Path
+
+<table>
+<tr>
+<td width="50" align="center"><strong>#</strong></td>
+<td width="180"><strong>I am...</strong></td>
+<td width="250"><strong>Use this</strong></td>
+<td><strong>What it looks like</strong></td>
+</tr>
+
+<tr>
+<td align="center">1</td>
+<td><strong>Non-technical</strong><br/>No coding needed</td>
+<td><a href="https://app.lvng.ai"><strong>app.lvng.ai</strong></a><br/>The web app</td>
+<td>Point-and-click interface. Create agents, build workflows visually, chat with AI, search your knowledge — all from a browser. No terminal, no code, no setup.</td>
+</tr>
+
+<tr>
+<td align="center">2</td>
+<td><strong>Semi-technical</strong><br/>Comfortable with a terminal</td>
+<td><a href="#claude-code"><strong>Claude Code + MCP</strong></a><br/>Natural language in terminal</td>
+<td>Install one package, add your API key, then talk to LVNG in plain English: <em>"create an agent that researches market trends"</em>. Claude Code does the API calls for you.</td>
+</tr>
+
+<tr>
+<td align="center">3</td>
+<td><strong>Developer</strong><br/>Writes Python / JS / cURL</td>
+<td><strong>This cookbook</strong><br/>API recipes + examples</td>
+<td>Copy-paste recipes and full working scripts. Call the LVNG REST API from your code to build automations, integrate into your app, or script complex multi-agent workflows.</td>
+</tr>
+
+<tr>
+<td align="center">4</td>
+<td><strong>Power user / DevOps</strong><br/>CI/CD, cron, Docker</td>
+<td><strong>This cookbook + SDK</strong><br/>Embed LVNG in production</td>
+<td>Use the TypeScript SDK or raw API in your backend, cron jobs, CI pipelines, or Docker containers. Schedule reports, trigger workflows from webhooks, embed agents in your product.</td>
+</tr>
+</table>
+
+> **Not a developer?** Go to [app.lvng.ai](https://app.lvng.ai) — everything in this cookbook can also be done through the web app with no code.
 
 <br />
 
